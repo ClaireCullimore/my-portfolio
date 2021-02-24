@@ -5,11 +5,29 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <meta name="description" content="<%= "Claire Cullimore Portfolio" %>">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="<%= "Claire Cullimore Portfolio" %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= %>" />
+    <meta property="og:image" content="<%=  %>" />
+    <meta property="og:description" content="<%= "Personal Website for Claire Cullimore- Junior Full Stack Developer" %>" />
+    <meta property="og:site_name" content="<%= "Claire Cullimore - Junior Full-Stack Developer" %>" />
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
   </head>
+      <%= render 'shared/navbar' %>
 
-  <body>
-    <%= yield %>
+      <%= yield %>
+      <%= render 'shared/footer' %>
+    </script>
   </body>
 </html>

@@ -1,0 +1,23 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background: #00002E;
+  color: #ababab;
+  justify-content: center;
+  align-items: center;
+/*  position: fixed;
+*/}
+
+.navbar-nav {
+  font-size: 25px;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  color: #5e9b42;
+}

@@ -1,0 +1,8 @@
+.large-avatar {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 10px 10px 8px 10px #888888;
+  }
