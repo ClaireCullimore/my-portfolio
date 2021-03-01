@@ -1,77 +1,118 @@
-   <div class="block -blue edge--bottom">
-      <div class="first-section">
-        <div class="intro-text">
-          <h1>Hey I'm Claire</h1>
-          <p>A Junior Full Stack Developer from London, UK. </p>
+<!-- <! -- intro start -->
+<div class="first-section">
+  <div class="intro-text mb-4">
+    <h1>Hey I'm Claire</h1>
+      <p>Junior Full Stack Developer </p>
+  </div>
+  <div class="intro-image">
+    <img class="large-avatar" src="<%= image_path('photo.jpg')%>">
+  </div>
+</div>
+
+<!-- intro end -->
+
+<!-- about me section -->
+<div class="grey-section">
+    <div class="container">
+      <h2>About Me </h2>
+        <div class="paragraph-box">
+          <p> An enthusiastic Junior Full-Stack Developer with positive attitude and determination to succeed in the tech industry. </p>
+          <p>Learning to code with Le Wagon in 2020 was the best career change I ever made. I have a passion for back-end problem solving & front-end design. I am looking to pursue my first tech role and develop my skills within a talented team. </p>
+          <p>Other than coding, I love to travel and explore new sites, I am a keen tennis player and I also enjoy painting in my free time. </p>
         </div>
-        <div class="intro-image">
-          <img class="large-avatar" src="images/photo.jpg">
-        </div>
-      </div>
     </div>
-    <div>
-        <!-- just to make scrolling effect possible -->
-    <div class="block -berry edge--bottom">
-      <h1>About Me </h1>
-      <div class="paragraph-box">
-        <p> An enthusiastic Junior Full-Stack Developer with positive attitude and determination to succeed in the tech industry. </p>
-        <p>Learning to code with Le Wagon in Autumn 2020 was the best career change I ever made. I have a passion for back-end problem solving & front-end design, and
-        enjoy creating functional, responsive and interactive web apps & love discovering new ways to do so. I am looking to pursue my first tech role and develop my skills within a talented team. </p>
-      </div>
-    </div>
-      <div class="block -orange edge--bottom--reverse">
-        <h1 id="portfolio">My Recent Work</h1>
-        <div class="row">
-            <div class="content">
-              <a href="#work" target="_blank">
-                <div class="content-overlay"></div>
-                <img class="content-image" src="images/hopdesk-image.png">
-                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Hop DESK</h3>
-                  <h4 class="content-text">Web app connecting people with local workspaces, including cafes, pubs and empty offices. Built using Ruby on Rails, HTML5, CSS & JS & deployed on Heroku</h4>
-                </div>
-              </a>
-            </div>
-            <div class="content">
-              <a href="https://art-swap-clairecullimore.herokuapp.com/" target="_blank">
-              <div class="content-overlay"></div>
-              <img class="content-image" src="images/artswap-image.png">
-                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Art Swap</h3>
-                  <h4 class="content-text">Airbnb-like marketplace to hire artwork. Optimsed for computer screens only. Built using Ruby on Rails, HTML5, CSS & JS & deployed on Heroku.</h4>
-              </div>
-              </a>
-            </div>
-        </div>
-      </div>
-      <div class="block -green edge--bottom--reverse">
-        <h1 id="skills">My Skills</h1>
-      </br>
-        <h3>Languages I speak</h3>
-        <img class="icons" src="app/assets/images/html.png"/>
-        <img class="icons" src="images/css.png"/>
-        <img class="icons" src="images/ruby.png"/>
-      </br>
-        <h3>Basic Knowledge</h3>
-        <img class="icons" src="images/js.png"/>
-        <img class="icons" src="images/react.png"/>
-      </br>
-        <h3>Platforms I have worked with</h3>
-        <img class="icons" src="images/github.png"/>
-        <img class="icons" src="images/heroku.png"/>
-        <img class="icons" src="images/figma.png"/>
-        <img class="icons" src="images/bootstrap.png"/>
-        <img class="icons" src="images/photoshop.png"/>
-        <img class="icons" src="images/slack.png"/>
-      </div>
-      <div class="block -berry edge--bottom--reverse">
-        <h2 id="get-in-touch">Get in touch</h2>
-        <a href="https://github.com/ClaireCullimore">
-              <img class="small-icons" src="images/github.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/clairecullimore/">
-          <img class="small-icons"src="images/linkedin.png" alt="">
+  </div>
+
+<!-- about me end -->
+
+<!-- portfolio section-->
+<div class="portfolio-section">
+  <div class="container">
+    <h2 id="portfolio">My Recent Work</h2>
+    <div class="row">
+      <div class="content">
+        <a href="#work" target="_blank">
+        <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title" style="color: white; font-weight: bold">Hop DESK</h3>
+            <h4 class="content-text">Web app connecting people with local workspaces, including cafes, pubs and empty offices. Built using Ruby on Rails, HTML5, CSS & JS & deployed on Heroku</h4>
+          </div>
         </a>
-        <a href="mailto: cascullimore@gmail.com">
-              <img class="small-icons" src="images/mail.png" alt=""></a>
+      </div>
+      <div class="content">
+        <a href="https://art-swap-clairecullimore.herokuapp.com/" target="_blank">
+        <div class="content-overlay">
+        </div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1533764593998-66af3784e9cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title" style="color: white; font-weight: bold">Art Swap</h3>
+            <h4 class="content-text">Airbnb-like marketplace to hire artwork. Optimsed for computer screens only. Built using Ruby on Rails, HTML5, CSS & JS & deployed on Heroku.</h4>
+          </div>
+        </a>
+      </div>
+      <div class="content">
+        <a href="https://art-swap-clairecullimore.herokuapp.com/" target="_blank">
+        <div class="content-overlay">
+        </div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title" style="color: white; font-weight: bold">Mr Cocktail</h3>
+            <h4 class="content-text">Airbnb-like marketplace to hire artwork. Optimsed for computer screens only. Built using Ruby on Rails, HTML5, CSS & JS & deployed on Heroku.</h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="grey-section">
+  <div class="container">
+    <h2 id="skills">My Skills</h2>
+    </br>
+    <div class="container">
+      <div class="paragraph-box">
+          <h3>Languages I speak</h3>
+          <img class="icons" src="<%= image_path('html.png')%>"/>
+          <img class="icons" src="<%= image_path('css.png')%>"/>
+          <img class="icons" src="<%= image_path('ruby.png')%>"/>
+        </br>
+          <h3>Basic Knowledge</h3>
+          <img class="icons" src="<%= image_path('js.png')%>"/>
+          <img class="icons" src="<%= image_path('react.png')%>"/>
+        </br>
+          <h3>Platforms I have worked with</h3>
+          <img class="icons" src="<%= image_path('github.png')%>"/>
+          <img class="icons" src="<%= image_path('heroku.png')%>"/>
+          <img class="icons" src="<%= image_path('figma.png')%>"/>
+          <img class="icons" src="<%= image_path('bootstrap.png')%>"/>
+          <img class="icons" src="<%= image_path('photoshop.png')%>"/>
+          <img class="icons" src="<%= image_path('slack.png')%>"/>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    <h2 id="get-in-touch">Contact</h2>
+    <div class="card-container">
+      <div class="cards">
+        <div class="large-card">
+          <h3>Github</h3>
+          <a href="https://github.com/ClaireCullimore">
+            <img class="small-icons" src="<%= image_path('github.png')%>" alt=""></a>
+            <h5>github.com/ClaireCullimore</h5>
+        </div>
+        <div class="large-card">
+          <h3>Linkedin</h3>
+          <a href="https://www.linkedin.com/in/clairecullimore/">
+            <img class="small-icons"src="<%= image_path('linkedin.png')%>" alt=""></a>
+          <h5>linkedin.com/in/clairecullimore</h5>
+         </div>
+         <div class="large-card">
+          <h3>Email</h3>
+          <a href="mailto: cascullimore@gmail.com">
+          <img class="small-icons" src="<%= image_path('mail.png')%>" alt=""></a>
+          <h5>cascullimore@gmail.com</h5>
         </div>
       </div>
+    </div>
+  </div>

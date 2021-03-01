@@ -1,0 +1,13 @@
+.footer {
+  text-align: center;
+  background-color: #00002E;
+  color: white;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer h3 {
+  font-family: "Quicksand", sans-serif;
+}

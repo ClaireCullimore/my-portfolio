@@ -6,3 +6,25 @@
     object-position: top;
     box-shadow: 10px 10px 8px 10px #888888;
   }
+
+@media(max-width: 992px) {
+  .large-avatar {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media(max-width: 768px) {
+  .large-avatar {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media(max-width: 576px) {
+  .large-avatar {
+    height: 200px;
+    width: 200px;
+
+  }
+}
