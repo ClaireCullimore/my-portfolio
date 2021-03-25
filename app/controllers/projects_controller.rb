@@ -1,5 +1,5 @@
 class ProjectsController < ApplicationController
-  def home
+  def index
   end
 
   def projects
